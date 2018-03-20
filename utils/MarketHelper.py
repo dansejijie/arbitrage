@@ -9,7 +9,7 @@ from medium.UserInfo import UserInfo
 from medium.K import K
 from medium.KLine import KLine
 
-#1min, 5min, 15min, 1day, 1week,
+#1min, 5min, 15min, 1day, 1week,,1
 def formatPeriod(market,period):
     if market=='okex':
         return period
