@@ -35,6 +35,8 @@ class EmailSender(object):
       return medium
 
 if __name__ == '__main__':
-  emailSender=EmailSender()
+  with open(os.path.join(os.path.dirname(__file__),os.path.pardir,'config.json'),'r') as f:
+      config=json.load(f)
+  emailSender=EmailSender(config["email"]["126"]["server"],config["email"]["126"]["username"],config["email"]["126"]["password"])
   emailSender.sendText('哈哈哈')
   print('完成')

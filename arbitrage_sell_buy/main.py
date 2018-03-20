@@ -28,9 +28,10 @@ def sendEmail(order):
 if __name__=='__main__':
   
   env="release"
-  #order_ids=["okex,btc_usdt,1234","huobi,ltc_usdt,2345"]
+  with open(os.path.join(os.path.dirname(__file__),os.path.pardir,'config.json'),'r') as f:
+      config=json.load(f)
   order_ids=set()
-  emailSender=EmailSender()
+  emailSender=EmailSender(config["email"]["126"]["server"],config["email"]["126"]["username"],config["email"]["126"]["password"])
 
   with open(os.path.join(os.path.dirname(__file__),'coins.json'),'r') as f:
     coin_settings=json.load(f)
