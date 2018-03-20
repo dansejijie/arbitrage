@@ -1,0 +1,30 @@
+{
+  "symbol": "ctr_usdt",
+  "interval_time": 10,
+  "finish_order_num": 0,
+  "error_target_time": 0,
+  "error_flag": 0,
+  "order_table": [
+    {
+      "name": "buy1",
+      "type": "buy",
+      "rate": -0.1,
+      "assets": 10,
+      "ignore": false
+    },
+    {
+      "name": "sell1",
+      "type": "sell",
+      "rate": 0.2,
+      "assets": 4,
+      "ignore": false
+    },
+    {
+      "name": "sell2",
+      "type": "sell",
+      "rate": 0.01,
+      "assets": 4,
+      "ignore": false
+    }
+  ]
+}

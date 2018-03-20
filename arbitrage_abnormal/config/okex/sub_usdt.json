@@ -1,0 +1,23 @@
+{
+    "symbol": "sub_usdt",
+    "interval_time": 20,
+    "finish_order_num": 0,
+    "error_target_time": 0,
+    "error_flag": 0,
+    "order_table": [
+        {
+            "name": "sell1",
+            "type": "sell",
+            "rate": -0.03,
+            "assets": 10,
+            "ignore": false
+        },
+        {
+            "name": "buy1",
+            "type": "buy",
+            "rate": 0.03,
+            "assets": 10,
+            "ignore": true
+        }
+    ]
+}

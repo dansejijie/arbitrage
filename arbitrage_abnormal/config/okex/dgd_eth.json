@@ -1,0 +1,16 @@
+{
+  "symbol": "dgd_eth",
+  "interval_time": 60,
+  "finish_order_num": 0,
+  "error_target_time": 0,
+  "error_flag": 0,
+  "order_table": [
+    {
+      "name": "sell1",
+      "type": "sell",
+      "rate": 0.098,
+      "assets": 0.184,
+      "ignore": false
+    }
+  ]
+}

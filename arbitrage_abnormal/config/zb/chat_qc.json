@@ -1,0 +1,17 @@
+{
+    "symbol": "chat_qc",
+    "interval_time": 60000,
+    "finish_order_num": 0,
+    "log_info": "初始运行",
+    "error_target_time": 0,
+    "error_flag": 0,
+    "order_table": [
+        {
+            "name": "buy1",
+            "type": "buy",
+            "rate": -0.022,
+            "assets": 5000,
+            "ignore": false
+        }
+    ]
+}

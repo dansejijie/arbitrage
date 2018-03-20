@@ -1,0 +1,16 @@
+{
+  "symbol": "qtum_usdt",
+  "interval_time": 60,
+  "finish_order_num": 0,
+  "error_target_time": 0,
+  "error_flag": 0,
+  "order_table": [
+    {
+      "name": "sell1",
+      "type": "sell",
+      "rate": 0.028,
+      "assets": 28.4,
+      "ignore": false
+    }
+  ]
+}

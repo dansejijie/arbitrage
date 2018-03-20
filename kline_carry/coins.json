@@ -1,0 +1,5 @@
+[
+  {"symbol":"bch_eth","okex":true,"huobi":true,"zb":true},
+  {"symbol":"qtum_eth","okex":true,"huobi":true,"zb":true},
+  {"symbol":"eos_eth","okex":true,"huobi":true,"zb":true}
+]

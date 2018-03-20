@@ -1,0 +1,24 @@
+{
+    "symbol": "zb_qc",
+    "interval_time": 60000,
+    "finish_order_num": 0,
+    "log_info": "初始运行",
+    "error_target_time": 0,
+    "error_flag": 0,
+    "order_table": [
+        {
+            "name": "buy1",
+            "type": "buy",
+            "rate": -0.09,
+            "assets": 2000,
+            "ignore": false
+        },
+        {
+            "name": "buy2",
+            "type": "buy",
+            "rate": -0.14,
+            "assets": 3700,
+            "ignore": false
+        }
+    ]
+}

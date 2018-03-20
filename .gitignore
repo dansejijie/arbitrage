@@ -1,0 +1,5 @@
+test/
+log/record/
+find_target_coin/find_abnormal_coin/record/
+*.pyc
+config.json
