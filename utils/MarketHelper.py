@@ -42,6 +42,8 @@ def okexFromatOrder(symbol,json,classify,type="buy",price=0,amount=0):
     order_info=Order()
     if "error_code" in json :
         order_info.setError(json['error_code'])
+        if classify=='order':
+            order_info=[order_info]
     elif classify == 'trade':
         order_info.setInfo(symbol,json['order_id'],type,"未成交",price,0,amount,0,"okex")
     elif classify == 'order':
