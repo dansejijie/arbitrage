@@ -9,7 +9,7 @@
       "name": "buy1",
       "type": "buy",
       "rate": -0.1,
-      "assets": 800,
+      "assets": 1000,
       "ignore": false
     }
   ]
