@@ -1,22 +1,15 @@
 {
   "symbol": "pra_usdt",
-  "interval_time": 60,
+  "interval_time": 1800,
   "finish_order_num": 0,
   "error_target_time": 0,
   "error_flag": 0,
   "order_table": [
     {
-      "name": "buy1",
-      "type": "buy",
-      "rate": -0.08,
-      "assets": 1000,
-      "ignore": false
-    },
-    {
       "name": "sell1",
       "type": "sell",
-      "rate": 0.1,
-      "assets": 2290,
+      "rate": 0.22,
+      "assets": 3000,
       "ignore": false
     }
   ]
