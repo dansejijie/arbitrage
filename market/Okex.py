@@ -153,13 +153,13 @@ if __name__ == "__main__":
     # print(ticker)
 
     #test depth
-    # depth=market.depth("btc_usdt")
-    # print(depth)
+    depth=market.depth("show_usdt")
+    print(depth)
 
     # test order
-    order=market.trade("light_usdt",0.001,100,"buy")
+    # order=market.trade("light_usdt",0.001,100,"buy")
     # order=market.order("light_usdt",1949643,10)
-    print(order)
+    # print(order)
 
     #test cancel order
     # order=market.trade("cmt_usdt",0.1,100,"buy")

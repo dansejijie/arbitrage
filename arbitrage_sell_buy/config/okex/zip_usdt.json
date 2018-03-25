@@ -1,0 +1,10 @@
+{
+  "symbol": "zip_usdt",
+  "interval_time": 1000,
+  "finish_order_num": 0,
+  "error_target_time": 0,
+  "error_flag": 0,
+  "sell_buy":["buy2","buy3"],
+  "buy2_assets":100,
+  "buy3_assets":100
+}

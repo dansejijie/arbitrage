@@ -12,8 +12,15 @@ class MessageSender(object):
   def __init__(self,username,password):    
     self.username=username
     self.password=password
+    self.debug=False
   
+  def setDebug(self,debug):
+    self.debug=debug
+
   def sendText(self,info,mobile="13735542964",temp_id="147854"):
+    print("sendMessage:{}".format(info))
+    if self.debug==True:
+      return
     medium=Medium()
     data={
     "mobile":mobile,

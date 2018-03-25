@@ -1,0 +1,6 @@
+light_usdt	0.0009
+of_usdt	0.0012
+
+insur_usdt	0.0015
+show_usdt	0.0023
+zip_usdt	0.0011
