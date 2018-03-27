@@ -39,6 +39,7 @@ def transBmobKline(kline):
   newKLine=[]
   for i in range(len(kline)):
     temp={}
+    temp["format_date"]=time.strftime("%Y-%m-%d %H:%M", time.localtime(kline[i].date))
     temp["date"]=kline[i].date
     temp["open"]=kline[i].open
     temp["high"]=kline[i].high
@@ -58,7 +59,7 @@ def startHandleEvent():
     kline=market.kline(coin,"15min")
     if kline.result==True:
       start_date=kline[0].date
-      end_date=kline[-1500].date
+      end_date=kline[-1000].date
       if search_date!=None and search_date>start_date:
         start_date=search_date
       kline=getSameLine(kline,start_date,end_date)
