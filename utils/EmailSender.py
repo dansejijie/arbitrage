@@ -13,12 +13,18 @@ class EmailSender(object):
     self.sender=sender_username
     self.sender_password=sender_password
     self.recever="dansejijie@yeah.net"
+    self.debug=False
 
     
-
+  def setDebug(self,debug):
+    self.debug=debug
     
   
   def sendText(self,info,title="virtualcoin"):
+        
+    print("sendEmail:{}".format(info))
+    if self.debug==True:
+      return
     medium=Medium()
 
     msg = MIMEText(info,_subtype='plain')
