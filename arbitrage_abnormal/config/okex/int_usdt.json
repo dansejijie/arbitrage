@@ -8,7 +8,7 @@
     {
       "name": "buy1",
       "type": "buy",
-      "rate": -0.074,
+      "rate": -0.08,
       "assets": 1000,
       "ignore": false
     }
