@@ -1,4 +1,15 @@
 [
   "eth_btc",
-  "ltc_btc"
+  "ltc_btc",
+  "bch_btc",
+  "eos_btc",
+  "qtum_btc",
+  "etc_btc",
+  "nem_btc",
+  "bch_eth",
+  "ltc_eth",
+  "eos_eth",
+  "qtum_eth",
+  "etc_eth",
+  "xrp_btc"
 ]
