@@ -1,3 +1,6 @@
 [
-    {"symbol":"insur_usdt","okex":true,"huobi":false,"zb":false}
+    {"symbol":"insur_usdt","okex":true,"huobi":false,"zb":false},
+    {"symbol":"zip_usdt","okex":true,"huobi":false,"zb":false},
+    {"symbol":"light_usdt","okex":true,"huobi":false,"zb":false},
+    {"symbol":"of_usdt","okex":true,"huobi":false,"zb":false}
   ]
