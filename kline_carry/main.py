@@ -68,13 +68,13 @@ def startHandleEvent():
       result=bmob.insertArray(coin,newLine)
       if result.result==False:
         print('{}上传到Bmob数据库发生失败{}'.format(coin,result.message))
-        return error_interval_time
+        #return error_interval_time
       else:
         with open(os.path.join(os.path.dirname(__file__),'info.txt'),"a") as f:
           f.write("{}:{} last date:{} today date:{} num:{}\n".format(time.strftime('%Y-%m-%d %H:%M:%S'),coin,search_date,start_date,len(kline)))
     else:
       print(result.message)
-      return error_interval_time
+      ##return error_interval_time
   return correct_interval_time
 
 
@@ -104,7 +104,6 @@ if __name__ == '__main__':
               messageSender.sendText("错误次数太多，请尽快查看原因")
         print('程序等待下一次执行中')
         time.sleep(interval_time)
-        
     except Exception as e:
       messageSender.sendText(e.args[0])
     print('程序退出循环')

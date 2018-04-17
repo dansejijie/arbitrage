@@ -121,7 +121,7 @@ class Bmob(object):
 if __name__ == '__main__':
     with open(os.path.join(os.path.dirname(__file__),os.path.pardir,'config.json'),'r') as f:
       config=json.load(f)
-    bmob=Bmob(config["bmob"]["coin"]["api_key"],config["bmob"]["coin"]["secret_key"])
+    bmob=Bmob(config["bmob"]["api_key"],config["bmob"]["secret_key"])
     #插入数组
     #result=bmob.insertArrayByLimit("test",[{"symbol":"eth_usdt"}])
 
@@ -133,6 +133,6 @@ if __name__ == '__main__':
     # result=bmob.insertArray('test',L,2)
 
     #test 测试批量获取数据的
-    result=bmob.queryArray("btc_usdt","-date",700)
+    # result=bmob.queryArray("btc_usdt","-date",700)
 
     print(result)
