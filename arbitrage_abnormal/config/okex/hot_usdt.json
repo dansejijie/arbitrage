@@ -1,6 +1,6 @@
 {
   "symbol": "hot_usdt",
-  "interval_time": 60,
+  "interval_time": 90,
   "finish_order_num": 0,
   "error_target_time": 0,
   "error_flag": 0,
@@ -8,8 +8,8 @@
     {
       "name": "buy1",
       "type": "buy",
-      "rate": -0.1,
-      "assets": 800,
+      "rate": -0.14,
+      "assets": 1100,
       "ignore": false
     }
   ]

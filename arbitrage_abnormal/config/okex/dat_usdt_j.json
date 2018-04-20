@@ -11,13 +11,6 @@
       "rate": -0.05,
       "assets": 500,
       "ignore": false
-    },
-    {
-      "name": "buy2",
-      "type": "buy",
-      "rate": -0.07,
-      "assets": 1000,
-      "ignore": false
     }
   ]
 }
