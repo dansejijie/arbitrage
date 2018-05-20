@@ -1,6 +1,6 @@
 {
   "symbol": "ace_usdt",
-  "interval_time": 60,
+  "interval_time": 100,
   "finish_order_num": 0,
   "error_target_time": 0,
   "error_flag": 0,
@@ -9,7 +9,7 @@
       "name": "buy1",
       "type": "buy",
       "rate": -0.09,
-      "assets": 1000,
+      "assets": 1500,
       "ignore": false
     }
   ]

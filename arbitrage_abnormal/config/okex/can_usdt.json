@@ -8,13 +8,6 @@
     {
       "name": "buy1",
       "type": "buy",
-      "rate": -0.16,
-      "assets": 3000,
-      "ignore": false
-    },
-    {
-      "name": "buy2",
-      "type": "buy",
       "rate": -0.22,
       "assets": 3000,
       "ignore": false
